@@ -61,6 +61,10 @@ nav {
   padding-left: 1rem;
 }
 
+.log-in-buttons {
+  display: none;
+}
+
 .nav-menu-links {
   display: none;
 }
