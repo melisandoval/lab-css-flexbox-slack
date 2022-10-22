@@ -12,12 +12,23 @@ footer links grey: #454245
 :root {
   --purple: #540b51;
   --beige: #f3eae2;
+  --yellow: #ecb12f;
 }
 
 body {
   margin: 0px;
   font-family: "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial,
     sans-serif;
+}
+
+button {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
 }
 
 /* nav */
@@ -51,13 +62,6 @@ nav {
 }
 
 .nav-buttons-container button {
-  background: none;
-  color: inherit;
-  border: none;
-  padding: 0;
-  font: inherit;
-  cursor: pointer;
-  outline: inherit;
   padding-left: 1rem;
 }
 
@@ -79,6 +83,17 @@ nav {
 header {
   background-color: var(--purple);
   padding-top: 4rem;
+  color: white;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.3rem;
+  padding: 0 1rem;
+}
+
+header p {
+  font-size: 1rem;
 }
 
 .hero-product {
