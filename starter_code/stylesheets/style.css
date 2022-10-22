@@ -1,4 +1,4 @@
-/*
+/* 
 background purple: #540B51
 background ivory: #F3EAE2
 button blue: #4285F4
@@ -7,4 +7,99 @@ paragraph black: #000000
 paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
-*/
+ */
+
+:root {
+  --purple: #540b51;
+  --beige: #f3eae2;
+}
+
+body {
+  margin: 0px;
+  font-family: "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial,
+    sans-serif;
+}
+
+/* nav */
+
+nav {
+  background-color: var(--purple);
+  width: 100%;
+}
+
+.c-slacklogo {
+  padding-left: 1rem;
+  padding-top: 1rem;
+  display: flex;
+  align-items: center;
+  width: 125px;
+}
+
+/* header */
+
+header {
+  background-color: var(--purple);
+}
+
+.hero-product {
+  width: 100%;
+}
+
+.hero-product img {
+  width: 100%;
+}
+
+/* main / logos section */
+
+.logos-section-container {
+  background-color: var(--beige);
+  width: 100%;
+  /* padding: 0.1rem; */
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.logos-img-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.logos-img-container img {
+  width: auto;
+  height: 20px;
+  padding: 0.5em;
+}
+
+.conexion-section-img-container {
+  width: 100%;
+}
+
+/* main / conexion section */
+
+.conexion-section-img-container img {
+  width: 100%;
+}
+
+/* main / flexibility section */
+
+.flexibility-section-img-container {
+  width: 100%;
+}
+
+.flexibility-section-img-container img {
+  width: 100%;
+}
+
+/* main / tools section */
+
+.tools-section-img-container {
+  width: 100%;
+}
+
+.tools-section-img-container img {
+  width: 100%;
+}
