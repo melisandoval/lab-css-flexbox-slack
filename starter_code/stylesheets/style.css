@@ -25,6 +25,15 @@ body {
 nav {
   background-color: var(--purple);
   width: 100%;
+  padding-bottom: 1rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  position: fixed;
+}
+
+.nav-content-container {
+  display: flex;
 }
 
 .c-slacklogo {
@@ -33,12 +42,39 @@ nav {
   display: flex;
   align-items: center;
   width: 125px;
+  height: auto;
+}
+
+.nav-buttons-container {
+  padding-right: 1rem;
+  background-color: var(--purple);
+}
+
+.nav-buttons-container button {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  padding-left: 1rem;
+}
+
+.nav-menu-links {
+  display: none;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+  background-color: var(--purple);
 }
 
 /* header */
 
 header {
   background-color: var(--purple);
+  padding-top: 4rem;
 }
 
 .hero-product {
