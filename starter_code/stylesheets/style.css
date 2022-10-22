@@ -104,6 +104,15 @@ header p {
   width: 100%;
 }
 
+/* main */
+
+.logos-section-container,
+.conexion-section-container,
+.flexibility-section-container,
+.tools-section-container {
+  background-color: var(--beige);
+}
+
 /* main / logos section */
 
 .logos-section-container {
