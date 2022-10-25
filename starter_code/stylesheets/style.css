@@ -13,6 +13,7 @@ footer links grey: #454245
   --purple: #540b51;
   --beige: #f3eae2;
   --yellow: #ecb12f;
+  --blue: #4285f4;
 }
 
 body {
@@ -92,6 +93,11 @@ header h1 {
   padding: 0 1rem;
 }
 
+#header-highlighted-text {
+  color: var(--yellow);
+  font-weight: bold;
+}
+
 header p {
   font-size: 1rem;
 }
@@ -102,6 +108,58 @@ header p {
 
 .hero-product img {
   width: 100%;
+}
+
+.header-sign-up-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-sign-up-buttons button {
+  padding: 0.5rem;
+  border-radius: 5px;
+  margin: 0.5rem 1rem;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  text-align: start;
+  width: 90%;
+}
+
+/* tablets: max-width: 400px */
+
+.header-sign-up-buttons button p {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+#sing-up-email-button {
+  background-color: white;
+  color: var(--purple);
+}
+
+#sing-up-email-button p {
+  padding: 0.5rem 0 0.5rem;
+  text-align: center;
+}
+
+#sign-up-google-button {
+  background-color: var(--blue);
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: flex-start; */
+}
+
+#sign-up-google-button p {
+  padding: 0.5rem 0 0.5rem;
+  text-align: center;
+}
+
+#sign-up-google-button img {
+  width: 1rem;
+  height: auto;
+  padding: 0.7rem;
+  background-color: white;
 }
 
 /* main */
