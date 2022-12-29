@@ -352,3 +352,13 @@ header p {
   height: 100px;
   border-radius: 50%;
 }
+
+/* to-do: round bottom shape */
+
+footer {
+  padding: 1em;
+}
+
+footer img {
+  width: 2rem;
+}
