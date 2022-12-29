@@ -32,6 +32,10 @@ button {
   outline: inherit;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* nav */
 
 nav {
@@ -202,6 +206,18 @@ header p {
   width: auto;
   height: 25px;
   padding: 0.5em;
+}
+
+/* main - learn more sections */
+
+.learn-more-link {
+  color: var(--blue);
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.full-size-text-container {
+  padding: 1em 2em 4em 1em;
 }
 
 .conexion-section-img-container {
