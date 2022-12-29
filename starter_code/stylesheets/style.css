@@ -14,6 +14,7 @@ footer links grey: #454245
   --beige: #f3eae2;
   --yellow: #ecb12f;
   --blue: #4285f4;
+  --black: #191817;
 }
 
 body {
@@ -41,7 +42,11 @@ ul {
   padding-inline-start: 0;
 }
 
-/* nav */
+h2 {
+  color: var(--black);
+}
+
+/* nav - mobile */
 
 nav {
   background-color: var(--purple);
@@ -253,4 +258,16 @@ header p {
 
 .tools-section-img-container img {
   width: 100%;
+}
+
+/* main - statistics section */
+
+.statistics-section {
+  padding: 2em 1em;
+  text-align: center;
+}
+
+.statistics-section h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
 }
