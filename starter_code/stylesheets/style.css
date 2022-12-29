@@ -136,11 +136,6 @@ header p {
   width: 100%;
 }
 
-/* .header-sign-up-buttons button {
-  background-color: white;
-  color: var(--purple);
-} */
-
 .header-sign-up-buttons button p {
   margin-block-start: 0;
   margin-block-end: 0;
@@ -184,10 +179,15 @@ header p {
 .logos-section-container {
   background-color: var(--beige);
   width: 100%;
-  /* padding: 0.1rem; */
   text-align: center;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.logos-section-container p {
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  font-weight: 600;
 }
 
 .logos-img-container {
@@ -200,7 +200,7 @@ header p {
 
 .logos-img-container img {
   width: auto;
-  height: 20px;
+  height: 25px;
   padding: 0.5em;
 }
 
