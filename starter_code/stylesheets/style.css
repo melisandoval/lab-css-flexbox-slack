@@ -298,3 +298,27 @@ header p {
   border: 2px solid var(--purple);
   border-radius: 0.3em;
 }
+
+.statistics-list-container {
+  display: grid;
+  place-items: center;
+}
+
+.statistics-list {
+  padding-top: 2em;
+  width: 60%;
+}
+
+.statistics-list p {
+  font-size: 0.8rem;
+  font-weight: 800;
+}
+
+.statistics-list li {
+  margin-bottom: 2em;
+}
+
+.statistics-list li span {
+  font-size: 2.5rem;
+  color: var(--purple);
+}
