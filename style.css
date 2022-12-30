@@ -325,13 +325,26 @@ header p {
   color: var(--purple);
 }
 
-.homepage-last-cta {
-  background-color: var(--purple);
-  padding: 2em 1em 2em;
-  margin-bottom: 6em;
-  text-align: center;
-  position: relative;
+.purple-background-container {
   overflow: hidden;
+  margin-bottom: 5em;
+}
+
+.homepage-last-cta-container {
+  width: 200%;
+  background-color: var(--purple);
+  padding: 2em 1em 5em;
+  border-radius: 0 0 55% 50%;
+  position: relative;
+  left: -50%;
+}
+
+.homepage-last-cta {
+  text-align: center;
+  width: 90vw;
+  margin-left: 25%;
+  display: grid;
+  place-items: center;
 }
 
 .homepage-last-cta h3 {
