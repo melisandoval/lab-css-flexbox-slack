@@ -15,6 +15,7 @@ footer links grey: #454245
   --yellow: #ecb12f;
   --blue: #4285f4;
   --black: #191817;
+  --grey: #454245;
 }
 
 body {
@@ -35,6 +36,7 @@ button {
 
 a {
   text-decoration: none;
+  cursor: pointer;
 }
 
 ul {
@@ -356,9 +358,61 @@ header p {
 /* to-do: round bottom shape */
 
 footer {
-  padding: 1em;
+  padding: 1.2em;
+  max-width: 100%;
+  display: grid;
 }
 
 footer img {
   width: 2rem;
+}
+
+footer li {
+  font-size: 0.8rem;
+}
+
+footer h4 {
+  font-size: 0.9em;
+}
+
+.links-columns-container {
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-bottom: 2px solid #808080;
+  padding: 1em 0;
+}
+
+/* .links-columns-container div {
+  gap: 2em;
+} */
+
+.links-columns-container li {
+  max-width: 100%;
+  padding: 0.9em 0;
+}
+
+.links-columns-container a {
+  color: var(--grey);
+}
+
+.site-links li {
+  padding: 1em 0;
+}
+
+.site-links a {
+  color: var(--black);
+  font-weight: 600;
+}
+
+.social-media-icon-links {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1.6em;
+}
+
+.copyright {
+  color: #808080;
+  font-size: 0.8rem;
+  padding-bottom: 3em;
 }
