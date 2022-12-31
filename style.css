@@ -368,8 +368,6 @@ header p {
   border-radius: 50%;
 }
 
-/* to-do: round bottom shape */
-
 footer {
   padding: 1.2em;
   max-width: 100%;
@@ -395,10 +393,6 @@ footer h4 {
   border-bottom: 2px solid #808080;
   padding: 1em 0;
 }
-
-/* .links-columns-container div {
-  gap: 2em;
-} */
 
 .links-columns-container li {
   max-width: 100%;
@@ -428,4 +422,38 @@ footer h4 {
   color: #808080;
   font-size: 0.8rem;
   padding-bottom: 3em;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  header {
+    background-image: url("./images/background-singup.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    /* padding-bottom: 6em; */
+    height: 100%;
+    padding: 8em 1em 8em;
+    align-items: center;
+  }
+
+  header h1 {
+    font-size: 6em;
+    text-align: left;
+    font-weight: 600;
+  }
+
+  header p {
+    font-size: 2em;
+    text-align: left;
+  }
+
+  .hero-img-container {
+    height: auto;
+  }
+
+  .hero-img-container img {
+    width: 150%;
+    margin-right: 2em;
+  }
 }
