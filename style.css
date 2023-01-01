@@ -236,20 +236,20 @@ header p {
   width: 100%;
 }
 
-/* main / conexion section */
-
-.conexion-section-img-container img {
-  width: 100%;
+.learn-more-sections-img {
+  width: 90%;
 }
 
 /* main / flexibility section */
 
 .flexibility-section-img-container {
   width: 100%;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .flexibility-section-img-container img {
-  width: 100%;
+  width: 90%;
 }
 
 /* main / tools section */
@@ -258,9 +258,9 @@ header p {
   width: 100%;
 }
 
-.tools-section-img-container img {
+/* .tools-section-img-container img {
   width: 100%;
-}
+} */
 
 /* main - statistics section */
 
@@ -457,11 +457,19 @@ footer h4 {
     margin-right: 2em;
   }
 
+  .logos-section-container {
+    padding-bottom: 6em;
+  }
+
   .logos-section-container p {
     font-size: 1.5em;
   }
 
   .logos-section-container img {
     height: 35px;
+  }
+
+  .learn-more-sections img {
+    width: 80vw;
   }
 }
