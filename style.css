@@ -252,6 +252,7 @@ header p {
 
 .tools-section-img-container {
   background-image: url("./images/speed-mobile.png");
+  margin-bottom: 2em;
 }
 
 .learn-more-sections-img {
