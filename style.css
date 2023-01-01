@@ -232,8 +232,26 @@ header p {
   padding: 1em 2em 4em 1em;
 }
 
-.conexion-section-img-container {
+.conexion-section-img-container,
+.flexibility-section-img-container,
+.tools-section-img-container {
   width: 100%;
+  height: 280px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.conexion-section-img-container {
+  background-image: url("./images/connectedness-mobile.png");
+}
+
+.flexibility-section-img-container {
+  background-image: url("./images/flexibility-mobile.png");
+  margin-bottom: 2.5em;
+}
+
+.tools-section-img-container {
+  background-image: url("./images/speed-mobile.png");
 }
 
 .learn-more-sections-img {
@@ -243,14 +261,15 @@ header p {
 /* main / flexibility section */
 
 .flexibility-section-img-container {
-  width: 100%;
-  display: flex;
-  justify-content: flex-end;
+  width: 90%;
+  float: right;
+  /* display: flex;
+  justify-content: flex-end; */
 }
 
-.flexibility-section-img-container img {
+/* .flexibility-section-img-container img {
   width: 90%;
-}
+} */
 
 /* main / tools section */
 
@@ -431,7 +450,6 @@ footer h4 {
     background-repeat: no-repeat;
     display: grid;
     grid-template-columns: 60% 40%;
-    /* padding-bottom: 6em; */
     height: 100%;
     padding: 8em 1em 8em;
     align-items: center;
@@ -471,5 +489,24 @@ footer h4 {
 
   .learn-more-sections img {
     width: 80vw;
+  }
+
+  .conexion-section-img-container,
+  .flexibility-section-img-container,
+  .tools-section-img-container {
+    width: 90vw;
+    height: 450px;
+  }
+
+  .conexion-section-img-container {
+    background-image: url("./images/connectedness.png");
+  }
+
+  .flexibility-section-img-container {
+    background-image: url("./images/flexibility.png");
+  }
+
+  .tools-section-img-container {
+    background-image: url("./images/speed.png");
   }
 }
