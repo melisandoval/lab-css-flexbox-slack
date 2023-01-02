@@ -815,4 +815,36 @@ footer h4 {
   .tools-section-img-container {
     margin-bottom: 8em;
   }
+
+  .statistics-section {
+    padding-top: 6em;
+    padding-bottom: 6em;
+  }
+
+  .homepage-last-cta {
+    padding-top: 4em;
+    padding-bottom: 4em;
+  }
+
+  footer {
+    margin: 8em;
+  }
+
+  footer h4 {
+    font-size: 2rem;
+  }
+
+  .statistics-section h2 {
+    font-size: 3rem;
+  }
+
+  .statistics-section p {
+    font-size: 1.4rem;
+  }
+
+  footer a,
+  footer p,
+  .copyright {
+    font-size: 1.4rem;
+  }
 }
