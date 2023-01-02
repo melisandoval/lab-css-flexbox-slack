@@ -261,11 +261,15 @@ header p {
 
 /* main / flexibility section */
 
+.flexibility-section-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
 .flexibility-section-img-container {
-  width: 90%;
-  float: right;
-  /* display: flex;
-  justify-content: flex-end; */
+  width: 300px;
 }
 
 /* .flexibility-section-img-container img {
@@ -495,7 +499,7 @@ footer h4 {
   .conexion-section-img-container,
   .flexibility-section-img-container,
   .tools-section-img-container {
-    width: 90vw;
+    /* width: 90vw; */
     height: 450px;
   }
 
@@ -505,9 +509,19 @@ footer h4 {
 
   .flexibility-section-img-container {
     background-image: url("./images/flexibility.png");
+    width: 750px;
   }
 
   .tools-section-img-container {
     background-image: url("./images/speed.png");
+  }
+
+  .full-size-text-container {
+    margin-left: 6em;
+    margin-right: 6em;
+  }
+
+  h2 {
+    font-size: 2rem;
   }
 }
