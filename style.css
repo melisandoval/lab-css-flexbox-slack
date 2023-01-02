@@ -461,19 +461,6 @@ footer h4 {
     height: 450px;
   }
 
-  .conexion-section-img-container {
-    background-image: url("./images/connectedness.png");
-  }
-
-  .flexibility-section-img-container {
-    background-image: url("./images/flexibility.png");
-    width: 750px;
-  }
-
-  .tools-section-img-container {
-    background-image: url("./images/speed.png");
-  }
-
   .full-size-text-container {
     margin-left: 6em;
     margin-right: 6em;
@@ -526,6 +513,19 @@ footer h4 {
 
   .logos-section-container img {
     height: 35px;
+  }
+
+  .conexion-section-img-container {
+    background-image: url("./images/connectedness.png");
+  }
+
+  .flexibility-section-img-container {
+    background-image: url("./images/flexibility.png");
+    width: 750px;
+  }
+
+  .tools-section-img-container {
+    background-image: url("./images/speed.png");
   }
 
   .statistics-section {
@@ -651,6 +651,27 @@ footer h4 {
     font-weight: 500;
     padding: 0.5em 1em;
     border-radius: 0.2em;
+  }
+
+  .conexion-section-container,
+  .flexibility-section-container,
+  .tools-section-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .flexibility-section-container {
+    flex-direction: row-reverse;
+  }
+
+  .flexibility-section-img-container {
+    width: 450px;
+  }
+
+  .full-size-text-container {
+    margin-left: 4em;
+    margin-right: 4em;
+    width: 500px;
   }
 }
 
