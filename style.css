@@ -587,6 +587,13 @@ footer h4 {
 }
 
 @media (min-width: 1024px) and (max-width: 1440px) {
+  header {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .header-text-container {
+    margin: 0 2em;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -644,5 +651,35 @@ footer h4 {
     font-weight: 500;
     padding: 0.5em 1em;
     border-radius: 0.2em;
+  }
+}
+
+@media (min-width: 1440px) {
+  header {
+    grid-template-columns: 1fr 1fr;
+    padding: 6em;
+  }
+
+  .header-text-container {
+    margin: 0;
+  }
+
+  .header-sign-up-buttons {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .header-sign-up-buttons button {
+    margin-right: 1em;
+  }
+
+  .hero-img-container {
+    overflow: visible;
+  }
+
+  .hero-img-container img {
+    object-fit: contain;
+    width: 90%;
   }
 }
