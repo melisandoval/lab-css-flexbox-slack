@@ -561,4 +561,27 @@ footer h4 {
   .statistics-list-container li {
     width: 200px;
   }
+
+  .homepage-last-cta {
+    margin-left: 26%;
+    padding-left: 0.5%;
+  }
+
+  .links-columns-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .site-links ul {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .social-media-icon-links {
+    justify-content: flex-start;
+  }
+
+  .social-media-icon-links li {
+    padding-right: 1em;
+  }
 }
