@@ -1,14 +1,3 @@
-/* 
-background purple: #540B51
-background ivory: #F3EAE2
-button blue: #4285F4
-titles black: #191817
-paragraph black: #000000
-paragraph yellow: #ECB12F
-links blue: #2E71A6
-footer links grey: #454245
- */
-
 :root {
   --purple: #540b51;
   --beige: #f3eae2;
@@ -47,8 +36,6 @@ ul {
 h2 {
   color: var(--black);
 }
-
-/* nav - mobile */
 
 nav {
   background-color: var(--purple);
@@ -95,8 +82,6 @@ nav {
   font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
   background-color: var(--purple);
 }
-
-/* header */
 
 header {
   background-color: var(--purple);
@@ -181,16 +166,12 @@ header p {
   position: absolute;
 }
 
-/* main */
-
 .logos-section-container,
 .conexion-section-container,
 .flexibility-section-container,
 .tools-section-container {
   background-color: var(--beige);
 }
-
-/* main / logos section */
 
 .logos-section-container {
   background-color: var(--beige);
@@ -219,8 +200,6 @@ header p {
   height: 25px;
   padding: 0.5em;
 }
-
-/* main - learn more sections */
 
 .learn-more-link {
   color: var(--blue);
@@ -259,8 +238,6 @@ header p {
   width: 90%;
 }
 
-/* main / flexibility section */
-
 .flexibility-section-container {
   width: 100%;
   display: flex;
@@ -272,21 +249,9 @@ header p {
   width: 300px;
 }
 
-/* .flexibility-section-img-container img {
-  width: 90%;
-} */
-
-/* main / tools section */
-
 .tools-section-img-container {
   width: 100%;
 }
-
-/* .tools-section-img-container img {
-  width: 100%;
-} */
-
-/* main - statistics section */
 
 .statistics-section {
   padding: 2em 1em;
@@ -451,14 +416,9 @@ footer h4 {
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
-  /* .learn-more-sections img {
-    width: 80vw;
-  } */
-
   .conexion-section-img-container,
   .flexibility-section-img-container,
   .tools-section-img-container {
-    /* width: 90vw; */
     height: 450px;
   }
 
@@ -666,9 +626,6 @@ footer h4 {
     justify-content: space-between;
   }
 
-  .flexibility-section-container {
-  }
-
   .flexibility-section-img-container {
     width: 450px;
   }
@@ -761,26 +718,6 @@ footer h4 {
   header {
     padding: 12em;
   }
-
-  /* .learn-more-sections-container {
-    background-color: var(--beige);
-    display: grid;
-    place-items: center;
-  } */
-
-  /* .conexion-section-container,
-  .flexibility-section-container,
-  .tools-section-container {
-    width: 1920px;
-  } */
-
-  /* .conexion-section-img-container,
-  .flexibility-section-img-container,
-  .tools-section-img-container {
-    height: 800px;
-    margin-top: 4em;
-    margin-bottom: 4em;
-  } */
 
   .full-size-text-container {
     width: 700px;
