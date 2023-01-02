@@ -80,7 +80,7 @@ nav {
 }
 
 .nav-buttons-container button {
-  padding-left: 1rem;
+  margin-left: 1rem;
 }
 
 .log-in-buttons {
@@ -449,7 +449,42 @@ footer h4 {
   padding-bottom: 3em;
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1023px) {
+  /* .learn-more-sections img {
+    width: 80vw;
+  } */
+
+  .conexion-section-img-container,
+  .flexibility-section-img-container,
+  .tools-section-img-container {
+    /* width: 90vw; */
+    height: 450px;
+  }
+
+  .conexion-section-img-container {
+    background-image: url("./images/connectedness.png");
+  }
+
+  .flexibility-section-img-container {
+    background-image: url("./images/flexibility.png");
+    width: 750px;
+  }
+
+  .tools-section-img-container {
+    background-image: url("./images/speed.png");
+  }
+
+  .full-size-text-container {
+    margin-left: 6em;
+    margin-right: 6em;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 768px) {
   header {
     background-image: url("./images/background-singup.png");
     background-size: cover;
@@ -493,41 +528,6 @@ footer h4 {
     height: 35px;
   }
 
-  .learn-more-sections img {
-    width: 80vw;
-  }
-
-  .conexion-section-img-container,
-  .flexibility-section-img-container,
-  .tools-section-img-container {
-    /* width: 90vw; */
-    height: 450px;
-  }
-
-  .conexion-section-img-container {
-    background-image: url("./images/connectedness.png");
-  }
-
-  .flexibility-section-img-container {
-    background-image: url("./images/flexibility.png");
-    width: 750px;
-  }
-
-  .tools-section-img-container {
-    background-image: url("./images/speed.png");
-  }
-
-  .full-size-text-container {
-    margin-left: 6em;
-    margin-right: 6em;
-  }
-
-  h2 {
-    font-size: 2rem;
-  }
-}
-
-@media (min-width: 768px) {
   .statistics-section {
     display: grid;
     place-items: center;
@@ -583,5 +583,66 @@ footer h4 {
 
   .social-media-icon-links li {
     padding-right: 1em;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+}
+
+@media (min-width: 1024px) {
+  nav {
+    align-items: center;
+    padding-bottom: 0;
+  }
+
+  .nav-links-container {
+    display: flex;
+  }
+
+  .nav-menu-links {
+    display: flex;
+    align-items: center;
+  }
+
+  .nav-menu-links a {
+    color: white;
+    padding: 1em;
+    font-weight: 500;
+  }
+
+  .c-slacklogo {
+    padding: 1em;
+  }
+
+  .nav-buttons-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .nav-buttons-container button {
+    margin-right: 1em;
+  }
+
+  .burger-icon {
+    display: none;
+  }
+
+  .log-in-buttons {
+    display: flex;
+    align-items: center;
+  }
+
+  #nav-sign-in-button {
+    color: white;
+    font-weight: 500;
+  }
+
+  #nav-try-for-free-button {
+    color: var(--purple);
+    background-color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 0.5em 1em;
+    border-radius: 0.2em;
   }
 }
