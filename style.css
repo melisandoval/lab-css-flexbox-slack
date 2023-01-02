@@ -682,4 +682,13 @@ footer h4 {
     object-fit: contain;
     width: 90%;
   }
+
+  .logos-img-container {
+    justify-content: space-evenly;
+  }
+
+  .logos-section-container img {
+    height: 50px;
+    padding-top: 3em;
+  }
 }
