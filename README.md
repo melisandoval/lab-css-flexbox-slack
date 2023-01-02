@@ -40,3 +40,4 @@
 </details>
 
 
+Live version: https://melisandoval.github.io/lab-slack-homepage-clone/ .
