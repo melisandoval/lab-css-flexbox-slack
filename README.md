@@ -1,5 +1,5 @@
 
-# lab | Slack homepage clone 
+# Bootcamp lab | Slack homepage clone 
 
 - Responsive Slack homepage clone.
 - HTML and CSS.
